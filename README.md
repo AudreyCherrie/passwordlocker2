@@ -13,3 +13,4 @@ This application is about a password locker that allows the user to save his cre
  No dependancies needed.
 
 # Known Bugs
+No bugs detected on the application.
