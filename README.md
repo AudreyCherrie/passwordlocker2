@@ -17,4 +17,5 @@ No bugs detected on the application.
 
 #Technologies Used
  python  to create the end to end authentifications
- 
+
+ #Support and contact details
