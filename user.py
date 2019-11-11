@@ -3,7 +3,7 @@ class User:
     generate new class instance of user
     '''
     user_list = []#empty user list
-    def ___init___ (self,first_name,last_name,password):
+    def ___init___ (self,first_name,last_name,email,password):
         '''
         #_init_ method that defines our objects
         '''
@@ -11,7 +11,7 @@ class User:
         self.first_name= first_name
         self.last_name= last_name
         self.password= password
-
+        self.email = email
     def save_user(self):
         '''
         save_user method saves user objects into user_list
