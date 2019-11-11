@@ -22,3 +22,4 @@ No bugs detected on the application.
  incase you are not able to view certain applications or parts of the application feel free to submit an email to mitchelaudrey@gmail.com / mitchelaudrey@icloud.com
 
  #License
+ MIT Copyright (c)2019 Audrey Mitchel Macharia
