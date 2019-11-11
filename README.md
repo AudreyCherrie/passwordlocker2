@@ -16,3 +16,5 @@ This application is about a password locker that allows the user to save his cre
 No bugs detected on the application.
 
 #Technologies Used
+ python  to create the end to end authentifications
+ 
