@@ -19,3 +19,4 @@ No bugs detected on the application.
  python  to create the end to end authentifications
 
  #Support and contact details
+ incase you are not able to view certain applications or parts of the application feel free to submit an email to mitchelaudrey@gmail.com / mitchelaudrey@icloud.com
