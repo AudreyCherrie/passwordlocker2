@@ -98,7 +98,7 @@ def main():
             
         while True:
                 print("use the following shortcodes to navigate through the application")
-                print("short_code::: dd -to display all your saved credentials, dc -to delete a credential, fc -find credential by filename, cc -save credentials of an existing account, nc - make credentials for a new account")
+                print("short_code::: ds -to display all your saved credentials, dc -to delete a credential, fc -find credential by filename, cc -save credentials of an existing account, nc - make credentials for a new account")
                 code = input().lower()
                 if code == 'cc':
                   print("saving credentials of an existing account or file")
@@ -132,7 +132,7 @@ def main():
                     print(f"email address ......{searchAcc.email}")
                   else:
                     print("the above account doesn't exist")
-                elif code == 'dd':
+                elif code == 'ds':
                   # print('dd printing')
                   if display_creds() != '':
                     # print('dd printing sucess')
