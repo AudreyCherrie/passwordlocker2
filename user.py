@@ -3,15 +3,17 @@ class User:
     generate new class instance of user
     '''
     user_list = []#empty user list
-    def ___init___ (self,first_name,last_name,email,password):
+    def __init__ (self,username,firstname,lastname,email,password):
         '''
-        #_init_ method that defines our objects
+        #__init__ method that defines our objects
         '''
 
-        self.first_name= first_name
-        self.last_name= last_name
-        self.password= password
+        self.username = username
+        self.firstname= firstname
+        self.lastname= lastname
         self.email = email
+        self.password= password
+
     def save_user(self):
         '''
         save_user method saves user objects into user_list
@@ -28,6 +30,16 @@ class User:
         for user in cls.user_list:
             if user.password == password:
                 return user
+
+
+    @classmethod
+    def user_auth(cls,username,password):
+        '''
+        this method checks if the password matches the username 
+        '''
+        for user in cls.user_list:
+            if user.username == username and user.password == password:
+                return True
 
 
     @classmethod
