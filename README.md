@@ -9,7 +9,6 @@ This application is about a password locker, that allows the user to save his cr
  To visit this website one needs a web browser.
  An active internet.
  A computer or network access device.
- link to the website or the url.
  No dependancies needed.
 
 # Known Bugs
